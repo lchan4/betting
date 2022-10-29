@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>CLV Calculator</title>
+    <meta charset="utf-8">
+	  <script src="clv.js"></script>
+  </head>
+
+  <body>
+    <h1>CLV Calculator</h1>
+
+    <form>
+	  <p>
+	    Sport:<br>
+	    <input type="radio" name="sport" value="NFL">
+      <label for="nfl">NFL</label><br>
+      <input type="radio" name="sport" value="NBA">
+      <label for="nba">NBA</label>
+	  </p>
+	  <p>
+	    <label for="betSpread">Betting Line:</label>
+	    <input type="text" id="betSpread">
+	  </p>
+	  <p>
+	    <label for="betOdds">Betting Odds:</label>
+	    <input type="text" id="betOdds">
+	  </p>
+	  <p>
+	    <label for="closeSpread">Closing Line:</label>
+	    <input type="text" id="closeSpread">
+	  </p>
+	  <p>
+	    <label for="closeOdds">Closing Odds:</label>
+	    <input type="text" id="closeOdds">
+      </p>
+	  <p>
+	    <input type="button" id="submitButton" value="Calculate">
+	  </p>
+	</form>
+
+	  <p id="answer"></p>
+    
+  </body>
+</html>
